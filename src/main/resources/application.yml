@@ -1,0 +1,15 @@
+debug: true
+
+routing:
+  paths:
+    - uri: /v1/users/{uid}
+      method: GET
+
+    - uri: /v3/board/{bid}/cards
+      method: PUT
+
+    - uri: /internal/v2/users/{uid}
+      method: POST
+
+    - uri: /internal/v4/comments/request/{rid}/auth-users/{uid}
+      method: DELETE
