@@ -16,7 +16,7 @@ import java.util.List;
 @Getter
 @ToString
 @Component
-@ConfigurationProperties(value = "routing")
+//@ConfigurationProperties(value = "routing")
 public class RoutingConfigVO {
     private List<Path> paths;
 }
